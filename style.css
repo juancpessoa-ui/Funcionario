@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    background-color: whitesmoke;
+}
+
+a{
+
+    text-decoration: none;
+    color: inherit;
+         
+}
+
+ul, ol,li{
+    list-style: none;
+
+}
+h1{
+    
+    text-align: center;
+     background-color: lightblue;
+}
+main{
+    background-color: blue;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fotos{
+    width: 200vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    background-color: purple;
+}
+.nos{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+}
+.nos img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    
+
+}
+
+p{
+    text-align: center;
+
+}
