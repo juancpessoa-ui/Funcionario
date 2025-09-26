@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: 0;
-    background-color: whitesmoke;
 }
 
 a{
@@ -16,10 +15,12 @@ ul, ol,li{
     list-style: none;
 
 }
-h1{
-    
+h1{ 
+    font-family: 'Franklin Gothic Medium', sans-serif ;
     text-align: center;
-     background-color: lightblue;
+}
+p{
+    font-family: 'Franklin Gothic Medium', sans-serif ;
 }
 main{
     background-color: blue;  
@@ -35,12 +36,11 @@ main{
     align-items: center;
     gap: 16px;
     flex-wrap: wrap;
-    background-color: purple;
+    background-color: whitesmoke;
 }
 .nos{
     width: 200px;
     height: 200px;
-    background-color: yellow;
 }
 .nos img{
     width: 100%;
